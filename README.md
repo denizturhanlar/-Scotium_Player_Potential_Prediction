@@ -19,19 +19,19 @@ The following contains information about a scout's evaluations of all players on
 
 -match_id : The id of the corresponding match
 
-- evaluator_id : The id of the evaluator(scout)
+-evaluator_id : The id of the evaluator(scout)
 
-- player_id : The id of the respective player 
+-player_id : The id of the respective player 
 
-- position_id : The id of the position that the relevant player played in that match (1=Goalkeeper, 2=Stopper, 3=Right back, 4=Left back, 5=Defensive midfielder, 6=Central midfielder, 7=Right wing, 8=Left wing, 9=Offensive midfielder, 10=Striker)
+-position_id : The id of the position that the relevant player played in that match (1=Goalkeeper, 2=Stopper, 3=Right back, 4=Left back, 5=Defensive midfielder, 6=Central midfielder, 7=Right wing, 8=Left wing, 9=Offensive midfielder, 10=Striker)
 
-- analysis_id : The set of a scout's attribute evaluations of a player in a match
+-analysis_id : The set of a scout's attribute evaluations of a player in a match
 
-- attribute_id : 	The id of each attribute that players were evaluated for
+-attribute_id : 	The id of each attribute that players were evaluated for
 
-- attribute_value : The value (points) given to a player's attribute by a scout
+-attribute_value : The value (points) given to a player's attribute by a scout
 
-- potential_label : Label that indicates the final decision of a scout regarding a player's potential in a match (target variable)
+-potential_label : Label that indicates the final decision of a scout regarding a player's potential in a match (target variable)
 
 
 The position_id indicates the position that the player played in that match. The following are the mappings for each position_id:
