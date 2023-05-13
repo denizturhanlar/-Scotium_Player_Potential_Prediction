@@ -36,14 +36,23 @@ The following contains information about a scout's evaluations of all players on
 
 The position_id indicates the position that the player played in that match. The following are the mappings for each position_id:
 -Goalkeeper
+
 -Stopper
+
 -Right back
+
 -Left back
+
 -Defensive midfielder
+
 -Central midfielder
+
 -Right wing
+
 -Left wing
+
 -Offensive midfielder
+
 -Striker
 
 The potential_label column represents the ultimate evaluation made by the scout regarding a player's potential, and serves as the target variable for predictive modeling tasks.
