@@ -48,7 +48,30 @@ The position_id indicates the position that the player played in that match. The
 
 The potential_label column represents the ultimate evaluation made by the scout regarding a player's potential, and serves as the target variable for predictive modeling tasks.
 
-# TASKS
+# Tasks
+
+Step 1: scoutium_attributes.csv and scoutium_potential_labels.read the csv files
+
+Step 2: Combine the csv files we have read using the merge function.("task_response_id", 'match_id', 'evaluator_id' "player_id" Perform the merge operation over 4 variables.)
+
+Step 3: Remove the Keeper (1) class in position_id from the dataset.
+
+Step 4: Remove the below_average class in potential_label from the dataset.(the below_average class makes up 1% of the entire data set)
+
+Step 5: Create a table from the dataset you have created using the “pivot_table” function. One player per row in this pivot table
+make manipulation in a way that it will be.
+
+Step 6: Express the ”potential_label" categories (average, highlighted) numerically using the Label Encoder function
+
+Step 7: Assign the numeric variable columns to a list with the name ”num_cols"
+
+Step 8: Apply StandardScaler to scale the data in all the “num_cols” variables that you have saved.
+
+Step 9: A machine learning model that predicts the potential tags of football players with minimal error over the data set we have
+develop it. (Print the roc_auc, f1, precision, recall, accuracy metrics.)
+
+Step 10: Draw the ranking of the properties using the feature_importance function, which specifies the level of importance of the variables
+
 
 
 
