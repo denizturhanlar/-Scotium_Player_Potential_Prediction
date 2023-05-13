@@ -15,9 +15,9 @@ In this data set, we have 9 Variables, 10730 Observations, 0.65 mb
 # Variables Description
 The following contains information about a scout's evaluations of all players on a team's roster in a match.
 
-- task_response_id : The set of a scout's evaluations of all players on a team's roster in a match
+-task_response_id : The set of a scout's evaluations of all players on a team's roster in a match
 
-- match_id : The id of the corresponding match
+-match_id : The id of the corresponding match
 
 - evaluator_id : The id of the evaluator(scout)
 
