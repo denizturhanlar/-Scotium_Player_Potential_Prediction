@@ -1,4 +1,5 @@
 # Classification Of Talent Hunting With Machine Learning
+![futbol foto](https://github.com/denizturhanlar/-Scotium_Player_Potential_Prediction/assets/126112467/0919fc72-e3ee-43b8-800e-d8e170595655)
 
 # Business Problem
 The goal is to predict whether football players are in the "average" or "highlighted" class based on the scores assigned by scouts to their various characteristics.
